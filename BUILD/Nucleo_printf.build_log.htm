@@ -1,0 +1,58 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: £gVision V5.18.0.0
+Copyright (C) 2016 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: ncu ncu, ncu, LIC=BL201-CBW2Q-QHY8A-1VLX6-TA5NW-SRD2H
+ 
+Tool Versions:
+Toolchain:       MDK-ARM Professional  Version: 5.18
+Toolchain Path:  C:\Keil_v5\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.06 update 1 (build 61)
+Assembler:       Armasm.exe V5.06 update 1 (build 61)
+Linker/Locator:  ArmLink.exe V5.06 update 1 (build 61)
+Library Manager: ArmAr.exe V5.06 update 1 (build 61)
+Hex Converter:   FromElf.exe V5.06 update 1 (build 61)
+CPU DLL:         
+Dialog DLL:      DCM.DLL V1.13.6.0
+Target DLL:      STLink\ST-LINKIII-KEIL_SWO.dll V2.0.18.0
+Dialog DLL:      TCM.DLL V1.14.8.0
+ 
+<h2>Project:</h2>
+C:\Users\user\Desktop\MIAT_Insect Robot\Nucleo_printf.uvprojx
+Project File Date:  01/03/2019
+
+<h2>Output:</h2>
+*** Using Compiler 'V5.06 update 1 (build 61)', folder: 'C:\Keil_v5\ARM\ARMCC\Bin'
+Rebuild target 'Nucleo_printf'
+compiling main.cpp...
+MIAT_InsectRobot.h(76): warning:  #1-D: last line of file ends without a newline
+  #endif
+Ping.h(97): warning:  #1361-D: function "mbed::InterruptIn::rise(T *, M) [with T=Ping, M=void (Ping::*)()]" (declared at line 102 of "mbed/./drivers/InterruptIn.h") was declared "deprecated"
+              _event.rise(this,&Ping::_Starts);
+Ping.h(98): warning:  #1361-D: function "mbed::InterruptIn::fall(T *, M) [with T=Ping, M=void (Ping::*)()]" (declared at line 126 of "mbed/./drivers/InterruptIn.h") was declared "deprecated"
+              _event.fall(this,&Ping::_Stops);
+Ping.h(143): warning:  #1-D: last line of file ends without a newline
+    
+main.cpp(141): warning:  #111-D: statement is unreachable
+  	stand();
+main.cpp(31): warning:  #177-D: variable "SonicRange_L" was declared but never referenced
+  	int SonicRange_L,SonicRange_R;
+main.cpp(31): warning:  #177-D: variable "SonicRange_R" was declared but never referenced
+  	int SonicRange_L,SonicRange_R;
+main.cpp(32): warning:  #177-D: variable "i" was declared but never referenced
+  	int i =0 ;
+main.cpp(33): warning:  #177-D: variable "num" was declared but never referenced
+  	int num=0;
+main.cpp(327): warning:  #1-D: last line of file ends without a newline
+  }
+main.cpp: 10 warnings, 0 errors
+linking...
+Program Size: Code=37468 RO-data=3016 RW-data=184 ZI-data=3412  
+".\BUILD\Nucleo_printf.axf" - 0 Error(s), 10 Warning(s).
+Build Time Elapsed:  00:00:03
+</pre>
+</body>
+</html>
